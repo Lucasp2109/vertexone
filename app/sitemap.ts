@@ -1,0 +1,1 @@
+import type {MetadataRoute} from "next"; export default function sitemap():MetadataRoute.Sitemap{const base="https://vertexone.netlify.app";return ["","/aviso-legal","/politica-de-privacidad","/politica-de-cookies","/terminos-y-condiciones"].map(url=>({url:base+url,lastModified:new Date(),changeFrequency:(url?"yearly":"monthly") as "yearly"|"monthly",priority:url ? 0.7 : 1}))}

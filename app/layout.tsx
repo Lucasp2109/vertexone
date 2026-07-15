@@ -9,6 +9,11 @@ export const metadata: Metadata = {
   icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
   openGraph: { type: "website", locale: "es_AR", url: "https://vertexone.netlify.app/", siteName: "VertexOne Technologies", title: "VertexOne Technologies | Desarrollo de Software y Soluciones Cloud", description: "Soluciones digitales orientadas a optimizar procesos, mejorar la conectividad y acompañar el crecimiento empresarial.", images: [{url:"/og.png",width:1200,height:630,alt:"VertexOne Technologies — Soluciones tecnológicas para impulsar tu negocio"}] },
   twitter: { card:"summary_large_image", title:"VertexOne Technologies", description:"Soluciones tecnológicas para impulsar tu negocio", images:["/og.png"] },
+  verification: {
+    other: {
+      "facebook-domain-verification": "j4xgyecuquudds9z7to11s2jsu6ij7",
+    },
+  },
   robots: { index:true, follow:true },
 };
 

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   twitter: { card:"summary_large_image", title:"VertexOne Technologies", description:"Soluciones tecnológicas para impulsar tu negocio", images:["/og.png"] },
   verification: {
     other: {
-      "facebook-domain-verification": "j4xgyecuquudds9z7to11s2jsu6ij7",
+      "facebook-domain-verification": "opgb74jy07rn1okjpc90oqv6ybgydd",
     },
   },
   robots: { index:true, follow:true },
